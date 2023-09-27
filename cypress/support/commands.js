@@ -23,3 +23,21 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('login', (email, password) => {
+  cy.get('#mui-1').type(email)
+  cy.get('#mui-2').type(password)
+  cy.get('.css-zrgvfw > .MuiButtonBase-root').click()
+  cy.get('#across-map').should('be.visible')
+  cy.get('[aria-controls="language-switcher"]').first().click()
+  cy.get('.css-1sucic7 > .MuiPaper-root > .MuiList-root > [tabindex="-1"] > .css-1kthbge > .MuiBox-root').click()
+  
+}); 
+
+
+
+// Cypress.Commands.add('english', () => {
+//   cy.get('[aria-controls="language-switcher"]').first().click()
+//   cy.get('.css-1sucic7 > .MuiPaper-root > .MuiList-root > [tabindex="-1"] > .css-1kthbge > .MuiBox-root').click()
+
+// })

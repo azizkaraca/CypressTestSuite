@@ -1,11 +1,16 @@
 {
   "devDependencies": {
+    "cypress-file-upload": "^5.0.8",
+    "cypress-slow-down": "^1.2.1",
     "cypress-xpath": "^2.0.1",
     "xpath": "^0.0.33"
   },
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^18.0.6",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
-    "cypress-drag-drop": "^1.1.1"
+    "cypress-drag-drop": "^1.1.1",
+    "cypress-mochawesome-reporter": "^3.6.0",
+    "cypress-plugin-steps": "^1.1.1",
+    "cypress-plugin-xhr-toggle": "^1.0.0"
   }
 }

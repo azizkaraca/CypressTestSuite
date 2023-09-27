@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a092225c-33c8-4e8a-b947-fb4673cbe60d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/acrossCypress/loginTest.cy.js" beforeDir="false" />
-    </list>
+    <list default="true" id="a092225c-33c8-4e8a-b947-fb4673cbe60d" name="Changes" comment="across project on cypress" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,8 +115,17 @@
       <workItem from="1695363238476" duration="9571000" />
       <workItem from="1695387313092" duration="710000" />
       <workItem from="1695628470357" duration="3971000" />
-      <workItem from="1695730444205" duration="1542000" />
+      <workItem from="1695730444205" duration="2536000" />
     </task>
+    <task id="LOCAL-00001" summary="across project on cypress">
+      <option name="closed" value="true" />
+      <created>1695734154554</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695734154554</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +134,10 @@
   <component name="UnknownFeatures">
     <option featureType="dependencySupport" implementationName="executable:docker" />
     <option featureType="dependencySupport" implementationName="executable:kubectl" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="across project on cypress" />
+    <option name="LAST_COMMIT_MESSAGE" value="across project on cypress" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
