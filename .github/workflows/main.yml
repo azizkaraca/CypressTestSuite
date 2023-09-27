@@ -22,4 +22,8 @@ jobs:
         with:
           name: cypress-videos
           path: cypress/videos
+<<<<<<< HEAD
           if-no-files-found: ignore # 'warn' or 'error' are also available, defaults to `warn`s
+=======
+          if-no-files-found: ignore # 'warn' or 'error' are also available, defaults to `warn`s
+>>>>>>> e7cab5b759a5b3ba24af125ea82848db32d71652
