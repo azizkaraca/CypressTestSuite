@@ -34,8 +34,6 @@ Cypress.Commands.add('login', (email, password) => {
   
 }); 
 
-
-
 // Cypress.Commands.add('english', () => {
 //   cy.get('[aria-controls="language-switcher"]').first().click()
 //   cy.get('.css-1sucic7 > .MuiPaper-root > .MuiList-root > [tabindex="-1"] > .css-1kthbge > .MuiBox-root').click()
