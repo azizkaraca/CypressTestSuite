@@ -1,5 +1,5 @@
-import across from './across.json';
-import content from '../../pages/content';
+import content from '../pages/contents';
+import across from '../pages/across.json';
 
 describe('Login to Across App', () => {
 
